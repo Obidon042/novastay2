@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav h1 span{
+    color: orange;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: rgb(200, 132, 4);
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+
+#hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 40px;
+    padding-inline: 140px;
+    
+}
+
+.hero-left{
+    width: 50%;
+}
+
+.hero-left h2{
+    color: orange;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.hero-left h1{
+    font-size: 40px;
+    padding-block: 20px;
+}
+
+.hero-left h1 span{
+    color: orange;
+}
+
+.hero-left p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.btn2{
+    padding: 10px;
+    border: 2px orange solid;
+    color: black;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.hero-right{
+    width: 50%;
+    position: relative;
+}
+
+.hero-right img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.rating-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: -65px;
+}
+
+.fa-star{
+    color: orange;
+    font-size: 20px;
+}
