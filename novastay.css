@@ -111,3 +111,84 @@ nav ul li a{
     color: orange;
     font-size: 20px;
 }
+
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-lef{
+    width: 50%;
+}
+
+.about-lef img{
+    width: 80%;
+    border-radius: 20px;
+    margin-left: 170px;
+}
+
+
+.about-right{
+    width: 50%;
+    margin-left: 80px;
+}
+
+.about-right h2{
+    color: rgb(121, 115, 115);
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.about-right h1{
+    width: 70%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.about-right p{
+    font-size: 15px;
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+.about-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.about-box div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(240, 232, 216);
+      border-radius: 10px;
+      height: 40px;
+}
+
+.fa-wifi{
+    color: orange;
+    margin-left: 10px;
+}
+
+.fa-utensils{
+    color: orange;
+    margin-left: 10px;
+}
+
+.fa-bed{
+    color: orange;
+    margin-left: 10px;
+}
+
+.about-box div p{
+    margin-left: 10px;
+    padding-inline: 5px;
+    margin-right: 5px;
+    padding-top: 20px;
+}
