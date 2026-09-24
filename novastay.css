@@ -115,7 +115,7 @@ nav ul li a{
 
 
 
-section{
+#about{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,3 +195,333 @@ section{
     margin-right: 5px;
     padding-top: 20px;
 }
+
+
+
+
+
+#foods{
+    display: fle;
+    margin-block: 50px;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 180px;
+    padding-top: 100px;
+    background-color: rgb(239, 239, 243);
+    padding-bottom: 40px;
+}
+
+
+
+.h2{
+    color: orange;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+
+.food-t{
+  display: flex;
+  justify-content: space-between;
+  margin-block: 20px;
+  align-items: center;
+}
+
+.food-t button{
+    padding: 10px;
+    border: orange solid 1px;
+    border-radius: 5px;
+    color: orange;
+    cursor: pointer;
+}
+
+.foods-button{
+    display: flex;
+    padding-block: 10px;
+    gap: 10px;
+}
+
+.foods-button button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: orange solid 1px;
+}
+
+.foods-button button:hover{
+     background-color: orange;
+     color: white;
+}
+
+.foods-button button:first-child{
+    background-color: orange;
+    color: white;
+}
+
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.product-card{
+    border-radius: 10px;
+    border: solid 1px rgb(223, 217, 217);
+    overflow: hidden;
+    height: 400px;
+    transition: all 0.5s linear;
+}
+
+.product-card img{
+    width: 100%;
+    height: 40%;
+}
+
+
+.product-card h2{
+    color: orange;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.product-card h1{
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+
+
+.product-card p{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.product-card div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+
+.product-card div button{
+     background-color: rgb(200, 132, 4);
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card:hover{
+  box-shadow: 0 0 15px orange;
+  transform: translateY(-10px);
+}
+
+
+
+
+
+#rooms{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       margin-block: 50px;
+       padding-inline: 180px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+
+.our-hotel{
+    color: orange;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.con{
+     display: flex;
+  justify-content: space-between;
+  margin-block: 20px;
+  align-items: center;
+}
+
+.con button{
+    padding: 10px;
+    border: orange solid 1px;
+    color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+    
+.come-back{
+    display: flex;
+    padding-block: 10px;
+    gap: 10px;
+}
+
+
+.come-back button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: orange solid 1px;
+}
+
+.come-back button:hover{
+    background-color: orange;
+    color: white;
+}
+
+.come-back button:first-child{
+    background-color: orange;
+    color: white;
+}
+
+
+
+.hotel-rooms{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+  gap: 20px;
+  
+}
+
+.rooms-card{
+   border-radius: 10px;
+    border: solid 1px rgb(223, 217, 217);
+    overflow: hidden;
+    height: 450px;
+    transition: all 0.5s linear;
+}
+
+
+
+.hotel-rooms img{
+    width: 100%;
+    height: 40%;
+
+}
+
+.hotel-rooms h2{
+     color: orange;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.hotel-rooms h1{
+     font-size: 20px;
+    padding-left: 20px;
+}
+
+.hotel-rooms p{
+     font-size: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.yes{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.fa-person{
+    color: orange;
+}
+
+.go{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.go div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.go button{
+     background-color: rgb(200, 132, 4);
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rooms-card:hover{
+     box-shadow: 0 0 15px orange;
+  transform: translateY(-10px);
+}
+
+
+
+#foot{
+    background-color: black;
+     display: flex;
+       flex-direction: column;
+       justify-content: center;
+       margin-block: 50px;
+       padding-inline: 180px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    color: white;
+}
+
+.end h1 span{
+    color: orange;
+}
+
+.end h3:last-child{
+    padding-right: 60px;
+}
+
+.mk{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    color: rgb(143, 132, 132);
+}
+
+.mk p:first-child{
+    width: 40%;
+}
+
+.mk ul{
+    list-style-type: none;
+    padding-right: 150px;
+    color: rgb(143, 132, 132);
+}
+
+.mk ul li a{
+       color: rgb(201, 194, 194);
+    text-decoration: none;
+}
+
