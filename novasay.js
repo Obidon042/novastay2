@@ -91,7 +91,7 @@ foodData.forEach((food) => {
                             <p> ${food.foodDesc} </p>
                              <hr>
                             <div>
-                                <h1>₦ ${food.foodPrice} </h1>
+                                <h1> ${food.foodPrice} </h1>
                                 <button> ${food.btn} </button>
                             </div>
                     </div>`;
@@ -195,7 +195,7 @@ hotelData.forEach((rooms) => {
           <div class="go">
             <div>
             
-              <h1>₦ ${rooms.hotelPrice} </h1>
+              <h1> ${rooms.hotelPrice} </h1>
               / night
             </div>
 
